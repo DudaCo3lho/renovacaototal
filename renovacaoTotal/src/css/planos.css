@@ -1,0 +1,167 @@
+#planos {
+    max-width: 1400px;
+    margin: 8rem auto 16rem auto;
+    height: 100vh;
+}
+
+#planos h3 {
+    text-align: center;
+    justify-content: center;
+    font-family: "Playfair";
+    font-weight: normal;
+    color: #8f8e8e;
+    margin-bottom: 2rem;
+}
+
+#planos h2 {
+    text-align: center;
+    justify-content: center;
+    font-family: "Playfair";
+    font-weight: normal;
+    font-size: 40px;
+    margin: 1rem 0 5rem 0;
+}
+
+.content-planos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-planos .card {
+    width: 375px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.content-planos .card-active {
+    width: 375px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(244,215,163);
+    background: linear-gradient(180deg, rgba(244,215,163,1) 0%, rgba(205,162,116,1) 100%);
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.content-planos .card .card-title {
+    padding: 30px 20px;
+    border-bottom: 2px solid #d5d5d5;
+}
+
+.content-planos .card .card-title h4 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: rgb(205, 162, 116, 1);
+    font-family: "Playfair";
+}
+
+.content-planos .card .card-title p {
+    color: rgb(220, 174, 125);
+}
+
+.content-planos .card .card-title p span {
+    font-size: 40px;
+    padding: 0 5px;
+    font-style: normal;
+    color: rgba(205, 162, 116, 1);
+}
+
+.content-planos .card-active .card-title {
+    padding: 30px 20px;
+    border-bottom: 2px solid rgba(205, 162, 116, 1);
+}
+
+.content-planos .card-active .card-title h4 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: "Playfair";
+}
+
+.content-planos .card-active .card-title p span {
+    font-size: 40px;
+    padding: 0 5px;
+    font-style: normal;
+}
+
+.content-planos .card ul {
+    margin: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-planos .card-active ul {
+    margin: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-planos .card li {
+    list-style-type: none;
+    padding: 0.7rem 0;
+    color: #cda274;
+}
+
+.content-planos .card li i {
+    margin-right: 5px;
+}
+
+.content-planos .card-active li {
+    list-style-type: none;
+    padding: 0.7rem 0;
+}
+
+.content-planos .card-active li i {
+    margin-right: 5px;
+}   
+
+.content-planos .card .card-content button {
+    width: 120px;
+    padding: 10px 20px;
+    background: rgba(205,162,116,1);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+
+    transition: 0.2s;
+
+}
+
+.content-planos .card-active .card-content button {
+    width: 120px;
+    padding: 10px 20px;
+    background: #000000;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #cda274;
+    letter-spacing: 1.2px;
+
+    transition: 0.2s;
+}
+
+.content-planos .card .card-content button:hover {
+    transform: scale(1.1);
+}
+
+.content-planos .card-active .card-content button:hover {
+    transform: scale(1.1);
+}

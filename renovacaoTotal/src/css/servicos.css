@@ -1,0 +1,99 @@
+#servicos {
+    max-width: 1400px;
+    margin: 8rem auto;
+}
+
+#section_academy {
+    display: flex;
+    justify-content: space-between;
+    max-height: 100vh;
+}
+
+#section_academy .imgAcademia {
+    padding-left: 2.3rem;
+}
+
+.content-servicos {
+    display: grid;
+    padding: 4rem 2rem 4rem 7rem;
+    align-content: space-evenly;
+}
+
+.content-servicos h3 {
+    color: #a2a2a2;
+}
+
+.content-servicos .description-servicos h2 {
+    max-width: 100%;
+    padding-bottom: 2rem;
+    font-family: "Playfair";
+    font-size: 2.2rem;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.content-servicos .description-servicos p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.content-servicos .iconSite {
+    height: 30px;
+}
+
+/* Parte da estética */
+
+#section_estetic {
+    display: flex;
+    margin-top: 8rem;
+    justify-content: space-between;
+    max-width: 100vw;
+}
+
+.content-estetic {
+    display: grid;
+    padding: 5rem 2.5rem;
+}
+
+.content-estetic .description-estetic h2 {
+    max-width: 80%;
+    padding-bottom: 2rem;
+    font-family: "Playfair";
+    font-size: 2.2rem;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.content-estetic .description-estetic p {
+    max-width: 80%;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.content-estetic .iconSite {
+    height: 30px;
+}
+
+span {
+    font-family: "Playfair";
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Parte do consultório psicológico */
+
+#section_psy {
+    display: flex;
+    margin-top: 8rem;
+    justify-content: space-between;
+    max-width: 100vw;
+    padding-left: 2.5rem;
+}
+
+hr {
+    border: 0px;
+    border-top: 1px solid #cfcfcf;
+    height: 1px;
+    max-width: 1300px;
+    margin: 0 auto;
+}

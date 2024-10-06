@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    height: 1070vh;
+}
+
+body {
+    background-color: #fff9ea;
+}
+
+header {
+    width: 100%;
+    padding: 50px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+header.rolagem {
+    background-color: #ffffff;
+    padding: 20px 4%;
+}
+
+header.rolagem .nav-item a{
+    color: #000000;
+}
+
+header.rolagem img {
+    filter: invert(0);
+}
+
+header.rolagem button {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+header.rolagem button:hover {
+    border: solid 1px #000000;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nav_logo {
+    width: 120px;
+    filter: invert(1);
+}
+
+.nav_list {
+    list-style-type: none;
+}
+
+.nav_list .nav-item {
+    display: inline-block;
+    margin: 0 30px; 
+}
+
+.nav_list .nav-item a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn-default {
+    width: 120px;
+    height: 40px;
+    border: solid 1px #FFFFFF;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.btn-default:hover {
+    background-color: #FFFFFF;
+    border: none;
+    color: #000000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.banner {
+    height: 90vh;
+    background-image: url(/src/image/imgNavFundo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 3.5em;
+    font-family: "PlayFair";
+    font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
